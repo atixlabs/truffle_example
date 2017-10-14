@@ -1,0 +1,121 @@
+/* PAGE */
+
+body,
+.pure-g [class*=pure-u] {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+}
+
+code {
+  display: block;
+  margin: 20px 0 15px 0;
+  padding: 10px;
+  background: #eee;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 45px 20px;
+}
+
+.pure-button-primary {
+  background-color: #0c1a2b;
+}
+
+.pure-button-primary:hover {
+  background-color: #233e5e;
+}
+
+.pure-form input[type="text"]:focus {
+  border-color: #0c1a2b;
+}
+
+/* NAVBAR */
+
+.navbar {
+  position: fixed;
+  padding: 5px;
+  background: #0c1a2b;
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:active,
+.navbar a:focus,
+.navbar a:hover {
+  background: #233e5e;
+}
+
+.navbar .pure-menu-heading {
+  font-weight: bold;
+  text-transform: none;
+}
+
+.navbar .navbar-right {
+  float: right;
+}
+
+.navbar .uport-logo {
+  height: 16px;
+  margin-right: 10px;
+}
+
+.input-group {
+  color: #333;
+  float: left;
+  line-height: 20px;
+  margin: 0 0 10px;
+  width: 200px;
+}
+
+label {
+  display: block;
+  margin-bottom: 2px;
+}
+
+input[type=text] {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 13px;
+  height: 33px;
+  margin: 0;
+  padding: 0 0 0 15px;
+  width: 100%;
+}
+
+.error-message {
+  color: #cc0033;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 5px 0 0;
+}
+
+.input-group .error-message {
+  display: none;
+}
+
+
+/* Error Styling */
+
+.error label {
+  color: #cc0033;
+}
+
+.error input[type=text] {
+  background-color: #fce4e4;
+  border: 1px solid #cc0033;
+  outline: none;
+}
+
+.error .error-message {
+  display: inline-block;
+}
